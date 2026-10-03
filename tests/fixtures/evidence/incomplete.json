@@ -1,0 +1,12 @@
+{
+  "id": "run-001",
+  "source_id": "fixture://incomplete.json",
+  "observations": [
+    {
+      "requirement_id": "run-time",
+      "duration_seconds": 65,
+      "complete": false,
+      "raw_value": "test stopped before completion"
+    }
+  ]
+}

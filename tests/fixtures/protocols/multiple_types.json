@@ -1,0 +1,27 @@
+{
+  "id": "full-check",
+  "requirements": [
+    {
+      "id": "length",
+      "description": "Length must be within tolerance.",
+      "requirement_type": "numeric_range",
+      "minimum": 9.5,
+      "maximum": 10.5,
+      "mandatory": true
+    },
+    {
+      "id": "run-time",
+      "description": "Run must complete for at least one minute.",
+      "requirement_type": "duration_completeness",
+      "minimum_duration_seconds": 60,
+      "mandatory": true
+    },
+    {
+      "id": "photo-required",
+      "description": "A final photograph is required.",
+      "requirement_type": "required_evidence",
+      "required_evidence_id": "final-photo",
+      "mandatory": false
+    }
+  ]
+}

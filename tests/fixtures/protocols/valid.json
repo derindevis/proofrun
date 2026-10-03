@@ -1,0 +1,12 @@
+{
+  "id": "length-check",
+  "requirements": [
+    {
+      "id": "length",
+      "description": "Length must be within tolerance.",
+      "requirement_type": "numeric_range",
+      "minimum": 9.5,
+      "maximum": 10.5
+    }
+  ]
+}

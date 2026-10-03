@@ -1,0 +1,11 @@
+{
+  "id": "measurement-001",
+  "source_id": "fixture://valid.json",
+  "observations": [
+    {
+      "requirement_id": "length",
+      "numeric_value": 10.0,
+      "raw_value": "10.0 mm"
+    }
+  ]
+}

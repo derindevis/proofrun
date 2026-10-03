@@ -1,0 +1,9 @@
+{
+  "source_id": "fixture://malformed.json",
+  "observations": [
+    {
+      "requirement_id": "length",
+      "numeric_value": "not-a-number"
+    }
+  ]
+}

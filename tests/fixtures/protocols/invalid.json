@@ -1,0 +1,18 @@
+{
+  "id": "invalid-check",
+  "requirements": [
+    {
+      "id": "length",
+      "description": "Length must be within tolerance.",
+      "requirement_type": "numeric_range",
+      "minimum": 10.5,
+      "maximum": 9.5
+    },
+    {
+      "id": "length",
+      "description": "Duplicate requirement ID.",
+      "requirement_type": "required_evidence",
+      "required_evidence_id": "measurement-001"
+    }
+  ]
+}
